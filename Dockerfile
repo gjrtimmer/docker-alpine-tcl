@@ -23,6 +23,8 @@ RUN set -ex && \
 		openssl \
 		openssl-dev \
 		alpine-sdk \
-		tcl
+		tcl \
+		tcl-tls \
+		tclx
 
 # EOF
