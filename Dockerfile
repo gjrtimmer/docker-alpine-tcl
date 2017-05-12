@@ -12,7 +12,8 @@ LABEL \
 	nl.timmertech.vcs-ref=${VCS_REF} \
 	nl.timmertech.license=MIT
 
-RUN apk add --no-cache --update ca-certificates wget git curl openssh && \
+RUN echo 'http://nl.alpinelinux.org/alpine/edge/community' >> /etc/apk/repositories && \
+	apk add --no-cache --update ca-certificates wget git curl openssh && \
 	apk upgrade --update --no-cache
 	
 RUN set -ex && \
