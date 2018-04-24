@@ -52,7 +52,7 @@ RUN apk add --no-cache tcl-dev build-base && \
 COPY rootfs /
 
 VOLUME ["/opt/tcl", "/opt/tcl/lib"]
-WORKDIR ["/opt/tcl"]
+WORKDIR /opt/tcl
 
 ENV TCLLIBPATH /opt/tcl /opt/tcl/lib
 
