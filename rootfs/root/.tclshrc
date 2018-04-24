@@ -1,0 +1,9 @@
+# .tclshrc
+
+if { $tcl_interactive } {
+    package require TclReadLine
+    set ::TclReadLine::PROMPT {\033\[36mtclsh-[info patchlevel]\033\[0m \[\033\[34m[file tail [pwd]\033\[0m]\]\033\[31m % \033\[0m}
+    ::TclReadLine::interact
+}
+
+# EOF
