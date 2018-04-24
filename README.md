@@ -56,5 +56,5 @@ docker build -t datacore/alpine-tcl https://gitlab.timmertech.nl/docker/alpine-t
 
 | Item | Version | Description |
 |------|---------|-------------|
-| Tcl | 8.6.6 | Tool Command Language |
+| Tcl | 8.6.7 | Tool Command Language |
 
