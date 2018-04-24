@@ -30,6 +30,7 @@ RUN set -ex && \
 		tcl \
 		tcl-tls \
 		tclx \
+		pgtcl \
 		expect && \
 		rm -rf /var/cache/apk/*
 
